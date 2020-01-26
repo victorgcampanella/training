@@ -1,0 +1,3 @@
+Para excutar os código dessa pasta execute 
+yarn add @babel/cli
+yarn add @babel/preset-env
