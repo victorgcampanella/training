@@ -6,10 +6,11 @@
   "dependencies": {
     "@babel/cli": "^7.8.3",
     "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.8.3",
     "@babel/preset-env": "^7.8.3"
   },
   "scripts": {
-    "dev": "babel ./main6.js -o ./bundle.js -w"
+    "dev": "babel ./main7.js -o ./bundle.js -w"
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
