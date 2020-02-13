@@ -7,10 +7,19 @@ var usuario = {
     cidade: 'São Paulo',
     estado: 'SP'
   }
-};
-var nome = usuario.nome,
-    idade = usuario.idade,
-    cidade = usuario.endereco.cidade;
-console.log(nome);
-console.log(idade);
-console.log(cidade);
+}; // const {nome, idade, endereco: {cidade}} = usuario
+// console.log(nome)
+// console.log(idade)
+// console.log(cidade)
+// function mostrarNome(usuario){
+//     console.log(usuario.nome)
+// }
+// mostrarNome(usuario)
+
+function mostrarNome(_ref) {
+  var nome = _ref.nome,
+      idade = _ref.idade;
+  console.log(nome, idade);
+}
+
+mostrarNome(usuario);

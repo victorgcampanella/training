@@ -7,8 +7,20 @@ const usuario = {
     },
 }
 
-const {nome, idade, endereco: {cidade}} = usuario
+// const {nome, idade, endereco: {cidade}} = usuario
 
-console.log(nome)
-console.log(idade)
-console.log(cidade)
+// console.log(nome)
+// console.log(idade)
+// console.log(cidade)
+
+// function mostrarNome(usuario){
+//     console.log(usuario.nome)
+// }
+
+// mostrarNome(usuario)
+
+function mostrarNome({nome, idade}){
+    console.log(nome, idade)
+}
+
+mostrarNome(usuario)
